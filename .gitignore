@@ -9,6 +9,7 @@ lerna-debug.log*
 
 backend/node_modules
 frontend/eventnext/node_modules
+backend/.env
 dist
 dist-ssr
 *.local
@@ -19,7 +20,9 @@ dist-ssr
 .idea
 .DS_Store
 *.suo
+*.env
 *.ntvs*
+*.env
 *.njsproj
 *.sln
 *.sw?
