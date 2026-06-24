@@ -20,7 +20,7 @@ export const createEvent = async (req, res) => {
       venue,
       date,
       banner,
-      organizer: req.user._id
+      organizer: "6a30c789210110909b6b18f7"
     });
 
     res.status(201).json({
